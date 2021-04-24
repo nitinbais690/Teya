@@ -1,0 +1,95 @@
+type NewType = string;
+
+export const INTRO_COMPLETE: NewType = 'INTRO_COMPLETE';
+export const IS_THEME_CHANGE: NewType = 'IS_THEME_CHANGE';
+export const TAC_ACCECPTED: NewType = 'TAC_ACCECPTED';
+
+/*------ auth -----*/
+export const SIGN_IN_SUCCESS: NewType = 'SIGN_IN_SUCCESS';
+export const SIGN_IN_ERROR: NewType = 'SIGN_IN_ERROR';
+
+export const LOGIN_SUCCESS: NewType = 'LOGIN_SUCCESS';
+export const LOGIN_ERROR: NewType = 'LOGIN_ERROR';
+
+export const LOGOUT_SUCCESS: NewType = 'LOGOUT_SUCCESS';
+export const LOGOUT_ERROR: NewType = 'LOGOUT_ERROR';
+
+/* ------------- currency -------------*/
+export const CURRENT_CURRENCY: NewType = 'CURRENT_CURRENCY';
+
+/* ------------- nitification ------------- */
+export const NOTIFICATION_LIST_SUCCESS: NewType = 'NOTIFICATION_LIST_SUCCESS';
+export const NOTIFICATION_LIST_ERROR: NewType = 'NOTIFICATION_LIST_ERROR';
+
+/*------ profile -----*/
+export const PROFILE_INFO_SUCCESS: NewType = 'PROFILE_INFO_SUCCESS';
+export const PROFILE_INFO_ERROR: NewType = 'PROFILE_INFO_ERROR';
+
+/*------ TUTOR_INFO_SUCCESS -----*/
+export const TUTOR_INFO_SUCCESS: NewType = 'TUTOR_INFO_SUCCESS';
+export const TUTOR_INFO_ERROR: NewType = 'TUTOR_INFO_ERROR';
+
+export const UPDATE_PROFILE_INFO_SUCCESS: NewType =
+  'UPDATE_PROFILE_INFO_SUCCESS';
+export const UPDATE_PROFILE_INFO_ERROR: NewType = 'UPDATE_PROFILE_INFO_ERROR';
+
+/*------ request -----*/
+export const CREATE_REQUEST_SUCCESS: NewType = 'CREATE_REQUEST_SUCCESS';
+export const CREATE_REQUEST_ERROR: NewType = 'CREATE_REQUEST_ERROR';
+
+export const UPDATE_REQUEST_SUCCESS: NewType = 'UPDATE_REQUEST_SUCCESS';
+export const UPDATE_REQUEST_ERROR: NewType = 'UPDATE_REQUEST_ERROR';
+
+export const REQUEST_LIST_SUCCESS: NewType = 'REQUEST_LIST_SUCCESS';
+export const REQUEST_LIST_ERROR: NewType = 'REQUEST_LIST_ERROR';
+
+export const REQUEST_DETAILS_SUCCESS: NewType = 'REQUEST_DETAILS_SUCCESS';
+export const REQUEST_DETAILS_ERROR: NewType = 'REQUEST_DETAILS_ERROR';
+
+export const CANCEL_REQUEST_REASON_SUCCESS: NewType = 'CANCEL_REQUEST_REASON_SUCCESS';
+export const CANCEL_REQUEST_REASON_ERROR: NewType = 'CANCEL_REQUEST_REASON_ERROR';
+
+export const REQUEST_STATE_RESET: NewType = 'REQUEST_STATE_RESET';
+
+/*----------- chat ----------*/
+export const CREATE_CHAT_SUCCESS: NewType = 'CREATE_CHAT_SUCCESS';
+export const CREATE_CHAT_ERROR: NewType = 'CREATE_CHAT_ERROR';
+
+export const CHAT_MESSAGES_SUCCESS: NewType = 'CHAT_MESSAGES_SUCCESS';
+export const CHAT_MESSAGES_ERROR: NewType = 'CHAT_MESSAGES_ERROR';
+
+export const UPLOAD_ATTACHMENT_TO_CHAT_SUCCESS: NewType = 'UPLOAD_ATTACHMENT_TO_CHAT_SUCCESS';
+export const UPLOAD_ATTACHMENT_TO_CHAT_ERROR: NewType = 'UPLOAD_ATTACHMENT_TO_CHAT_ERROR';
+
+/*----------- subject level ----------*/
+export const SUBJECT_LIST_SUCCESS: NewType = 'SUBJECT_LIST_SUCCESS';
+export const SUBJECT_LIST_ERROR: NewType = 'SUBJECT_LIST_ERROR';
+
+export const LEVEL_LIST_SUCCESS: NewType = 'LEVEL_LIST_SUCCESS';
+export const LEVEL_LIST_ERROR: NewType = 'LEVEL_LIST_ERROR';
+
+export const SELECTED_LIST_SUCCESS: NewType = 'SELECTED_LIST_SUCCESS';
+
+/*------ attachments -----*/
+export const UPLOAD_ATTACHMENT_SUCCESS: NewType = 'UPLOAD_ATTACHMENT_SUCCESS';
+export const UPLOAD_ATTACHMENT_ERROR: NewType = 'UPLOAD_ATTACHMENT_ERROR';
+
+export const DELETE_ATTCHMENTS_SUCCESS: NewType = 'DELETE_ATTCHMENTS_SUCCESS';
+export const DELETE_ATTCHMENTS_ERROR: NewType = 'DELETE_ATTCHMENTS_ERROR';
+
+export const ATTCHMENTS_LIST_SUCCESS: NewType = 'ATTCHMENTS_LIST_SUCCESS';
+export const ATTCHMENTS_LIST_ERROR: NewType = 'ATTCHMENTS_LIST_ERROR';
+
+export const ATTCHMENTS_DOWNLOAD_SUCCESS: NewType =
+  'ATTCHMENTS_DOWNLOAD_SUCCESS';
+export const ATTCHMENTS_DOWNLOAD_ERROR: NewType = 'ATTCHMENTS_DOWNLOAD_ERROR';
+
+/*------ bid -----*/
+export const CREATE_BID_SUCCESS: NewType = 'CREATE_BID_SUCCESS';
+export const CREATE_BID_ERROR: NewType = 'CREATE_BID_ERROR';
+
+export const UPDATE_BID_SUCCESS: NewType = 'UPDATE_BID_SUCCESS';
+export const UPDATE_BID_ERROR: NewType = 'UPDATE_BID_ERROR';
+
+export const BID_LIST_SUCCESS: NewType = 'BID_LIST_SUCCESS';
+export const BID_LIST_ERROR: NewType = 'BID_LIST_ERROR';

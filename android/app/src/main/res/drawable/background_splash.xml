@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    back image -->
+    <item
+        android:drawable="@mipmap/splash_background"
+        android:fitsSystemWindows="true" />
+
+    <!--    center logo-->
+    <item android:top="20dp">
+        <bitmap
+            android:gravity="center_vertical|center_horizontal"
+            android:src="@mipmap/logo" />
+    </item>
+
+    <!--    bottom image-->
+    <item
+        android:width="80dp"
+        android:height="20dp"
+        android:bottom="10dp"
+        android:drawable="@mipmap/dgera"
+        android:gravity="bottom|center" />
+</layer-list>

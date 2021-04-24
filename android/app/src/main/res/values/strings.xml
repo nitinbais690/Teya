@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Teya</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+<string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+<string moduleConfig="true" name="CodePushDeploymentKey">yCTW8-JV-Kxai4_oY2I-fI19e7rnC5kJGFKPP</string>
+</resources>
